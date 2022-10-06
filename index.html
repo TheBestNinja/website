@@ -1,119 +1,166 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mohammed Roshan</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-       #about > img { 
-       float: left; 
-       width: 38vw;
-       margin: 1vw;
-    } 
-    #about > p { 
-       float: right; 
-       width: 40vw;
-       margin: 1vw;
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammed Roshan</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    body {
+      background: whitesmoke;
+    }
+
+    gin: auto;
+    }
+
+    #main {
+      width: 40vw;
+      margin: 5vw;
+      border-radius: 5%;
+      min-width: 150px;
+
 
     }
-    #about { 
-       float: right; 
-       width: 90vw;
-       margin: 5vw;
-       
+
+    p {
+
+      min-width: 150px;
+      margin: 5vw;
+      font-size: 1.1em;
     }
-    
-   #contact{
-    margin: 5vw;
-   background: rgb(248, 240, 240);
- 
-   }
-   .container-fluid{
-    background: rgb(248, 240, 240);
 
-   }
-   p{
-    font-size: 2.2vw;
-   }
-   h1{
-    font-size: 3vw;
-   }
-   li{
-    font-size: 2vw;
-   }
-    </style>
-  </head>
-  <body>
-    <nav id="navbar" class="navbar navbar-expand-lg bg-light center-text">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Mohammed Roshan</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Demo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="puter1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="puter2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="puter3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    #about {
+      float: right;
+
+
+      background-color: rgb(23, 23, 23);
+      color: whitesmoke;
+      width: 100vw;
+
+    }
+
+    #contact {
+      margin: auto;
+
+      width: 30vw;
+    }
+
+    .container-fluid {
+      background: whitesmoke;
+      border-radius: 50%;
+
+    }
+
+
+    li {
+      font-size: 2vw;
+
+
+
+    }
+
+    #box {
+      border-radius: 5%;
+
+      background: white;
+      width: 40vw;
+      height: 20vw;
+      margin-bottom: 5vw;
+    }
+
+    h5 {
+      line-height: 50%;
+
+      padding: 1vw;
+
+    }
+
+    h1 {
+      padding: 1vw;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <center>
+      <h1>Mohammed Roshan</h1>
+      <h5>A developer</h5>
+    </center>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="puter1.jpg" class="d-block w-100" alt="...">
       </div>
-      <div id="about">
-<img src="https://avatars.githubusercontent.com/u/70361124?v=4" alt=""> <p>
-    <p>Lorem ipsum dolor sit amet. Qui enim sunt  velit quia ut facilis unde qui quia nostrum ut sunt atque? Et voluptate provident sit cumque molestiae aut facilis dolore. Aut voluptatem explicabo nam quibusdam expedita ut consequatur quia. Eum dolorem corrupti qui rerum ducimus ab placeat consequuntur vel corrupti beatae sed quidem corporis est minima quia? </p>
-
-</p>
+      <div class="carousel-item">
+        <img src="puter2.jpg" class="d-block w-100" alt="...">
       </div>
-      <br>
-      <br><br><br><br><br><br><br><br><br><br><br>
-<div >
-  
+      <div class="carousel-item">
+        <img src="puter3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id="about">
+    <div class="container text-center">
+      <div class="row justify-content-md-center">
+        <div class="col ">
+          <img id="main" src="https://avatars.githubusercontent.com/u/70361124?v=4" alt="">
+        </div>
+        <div class="col ">
+          <p>Lorem ipsum dolor sit amet. Qui enim sunt velit quia ut facilis unde qui quia nostrum ut sunt atque? Et
+            voluptate provident sit cumque molestiae aut facilis dolore. Aut voluptatem explicabo nam quibusdam expedita
+            ut consequatur quia. Eum dolorem corrupti qui rerum ducimus ab placeat consequuntur vel corrupti beatae sed
+            quidem corporis est minima quia? </p>
 
-  
-  <ul id="contact" class="list-group list-group-flush">
-    
-  <h1>Contact</h1>
-    <li class="list-group-item"><b>Phone Number:</b> (123)456-7890</li>
-    <li class="list-group-item"><b>Email:</b> contactme@gmail.com</li>
-    <li class="list-group-item"><b>Github:</b> <a href="https://github.com/MohammedRoshanT">github.com/MohammedRoshanT</a></li>
-  </ul>
-</div>
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <br>
+  <div>
+
+
+    <center>
+
+      <h2>Contact</h2>
+      <div id="box">
+        <ul id="contact" class="list-group list-group-flush">
+
+          <li class="list-group-item"><b>(123)456-7890</b></li>
+          <li class="list-group-item"><b>contactme@gmail.com</b></li>
+          <li class="list-group-item"><b><a href="https://github.com/MohammedRoshanT">Github</a></b></li>
+        </ul>
+      </div>
+    </center>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
